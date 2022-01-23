@@ -38,7 +38,7 @@ html {
 /* Encabezado */
 
 header {
-    height: 95vh;
+    height: 90vh;
     background-image: url("../img/el\ prat\ de\ llobregat.jpeg");
     background-size: cover;
     background-position: center;
@@ -72,13 +72,6 @@ header {
     color: black;
 }
 
-.main {
-    padding: 16px;
-    margin-top: 30px;
-    height: 1500px;
-    /* Used in this example to enable scrolling */
-}
-
 
 /* Columnas */
 
@@ -105,6 +98,11 @@ img {
     width: 25vw;
 }
 
+iframe {
+    height: 25vh;
+    width: 25vw;
+}
+
 
 /* Texto */
 
@@ -118,4 +116,73 @@ h2 {
 
 p {
     font-size: 1rem;
+}
+
+.enlace {
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 800px) {
+    /* Encabezado */
+    header {
+        height: 75vh;
+        background-image: url("../img/el\ prat\ de\ llobregat.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    /* Relleno */
+    .padding-s {
+        padding: 2%;
+    }
+    /* Columnas */
+    .column-3 {
+        width: 100%;
+        float: left;
+    }
+    .column-4 {
+        width: 50%;
+        float: left;
+    }
+    /* Texto */
+    h1 {
+        font-size: 1.25rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 0.9rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    .enlace {
+        font-size: 0.7rem;
+        text-decoration: none;
+        color: black;
+    }
+    /* Menú */
+    .navbar a {
+        padding: 3px 7px;
+        font-size: 12px;
+    }
+    .navbar a:hover {
+        background: lightgray;
+        color: black;
+    }
+    /* Imagenes y Video */
+    iframe {
+        height: 50vh;
+        width: 80vw;
+    }
+    img {
+        height: 50vh;
+        width: 80vw;
+    }
 }
