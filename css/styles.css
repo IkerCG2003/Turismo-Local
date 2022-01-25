@@ -39,7 +39,7 @@ html {
 
 header {
     height: 90vh;
-    background-image: url("../img/el\ prat\ de\ llobregat.jpeg");
+    background-image: url("../img/foto\ header.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -78,16 +78,25 @@ header {
 .column-1 {
     width: 100%;
     float: left;
+    border-radius: 5px;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+    border-radius: 5px;
 }
 
 .column-3 {
     width: 33.33%;
     float: left;
+    border-radius: 5px;
 }
 
 .column-4 {
     width: 25%;
     float: left;
+    border-radius: 5px;
 }
 
 
@@ -96,11 +105,13 @@ header {
 img {
     height: 25vh;
     width: 25vw;
+    border-radius: 5px;
 }
 
 iframe {
     height: 25vh;
     width: 25vw;
+    border-radius: 5px;
 }
 
 
@@ -122,6 +133,15 @@ p {
     font-size: 1rem;
     text-decoration: none;
     color: black;
+}
+
+
+/* footer */
+
+#pie {
+    background-color: darkgray;
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -169,8 +189,8 @@ p {
     }
     /* Menú */
     .navbar a {
-        padding: 3px 7px;
-        font-size: 12px;
+        padding: 3px 5px;
+        font-size: 15px;
     }
     .navbar a:hover {
         background: lightgray;
